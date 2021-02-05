@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_200">#EF9A9A</color>
+    <color name="red_500">#ec4646</color>
+    <color name="red_700">#D32F2F</color>
+    <color name="teal_200">#80DEEA</color>
+    <color name="teal_700">#00bcd4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_transparent">#33000000</color>
+    <color name="placeholder_color">#f6f6f6</color>
+    <color name="grey">#a6a9b6</color>
+    <color name="black_dim">#333333</color>
+</resources>

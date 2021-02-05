@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common constant-->
+    <item name="appbar_elevation" format="float" type="dimen">20.0</item>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="pdf_list_item_spacing">@dimen/_10sdp</dimen>
+
+    <!--Card radius-->
+    <dimen name="card_radius_5">@dimen/_5sdp</dimen>
+    <dimen name="card_radius_10">@dimen/_10sdp</dimen>
+
+    <!--Card elevation-->
+    <dimen name="card_elevation_5">@dimen/_5sdp</dimen>
+    <dimen name="card_elevation_10">@dimen/_10sdp</dimen>
+
+    <!--padding-->
+    <dimen name="padding_xxxsmall">@dimen/_3sdp</dimen>
+    <dimen name="padding_xxsmall">@dimen/_5sdp</dimen>
+    <dimen name="padding_xsmall">@dimen/_7sdp</dimen>
+    <dimen name="padding_small">@dimen/_10sdp</dimen>
+    <dimen name="padding_standard">@dimen/_16sdp</dimen>
+    <dimen name="padding_large">@dimen/_20sdp</dimen>
+    <dimen name="padding_xlarge">@dimen/_22sdp</dimen>
+    <dimen name="padding_xxlarge">@dimen/_26sdp</dimen>
+    <dimen name="padding_xxxlarge">@dimen/_30sdp</dimen>
+    <dimen name="padding_xhuge">@dimen/_50sdp</dimen>
+    <dimen name="padding_huge">@dimen/_56sdp</dimen>
+
+    <!--margin-->
+    <dimen name="margin_xxsmall">@dimen/_5sdp</dimen>
+    <dimen name="margin_xsmall">@dimen/_7sdp</dimen>
+    <dimen name="margin_small">@dimen/_10sdp</dimen>
+    <dimen name="margin_standard">@dimen/_16sdp</dimen>
+    <dimen name="margin_large">@dimen/_20sdp</dimen>
+    <dimen name="margin_xlarge">@dimen/_22sdp</dimen>
+    <dimen name="margin_xxlarge">@dimen/_26sdp</dimen>
+    <dimen name="margin_xxxlarge">@dimen/_30sdp</dimen>
+    <dimen name="margin_xxxxlarge">@dimen/_36sdp</dimen>
+    <dimen name="margin_huge">@dimen/_56sdp</dimen>
+    <dimen name="margin_xhuge">@dimen/_65sdp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="textsize_xxxsmall">@dimen/_8ssp</dimen>
+    <dimen name="textsize_xxsmall">@dimen/_10ssp</dimen>
+    <dimen name="textsize_xsmall">@dimen/_12ssp</dimen>
+    <dimen name="textsize_small">@dimen/_14ssp</dimen>
+    <dimen name="textsize_standard">@dimen/_16ssp</dimen>
+    <dimen name="textsize_medium">@dimen/_18ssp</dimen>
+    <dimen name="textsize_large">@dimen/_20ssp</dimen>
+    <dimen name="textsize_xlarge">@dimen/_22ssp</dimen>
+    <dimen name="textsize_xxlarge">@dimen/_26ssp</dimen>
+    <dimen name="textsize_xxxlarge">@dimen/_30ssp</dimen>
+    <dimen name="textsize_xxxxlarge">@dimen/_36ssp</dimen>
+    <dimen name="textsize_xxxxxlarge">@dimen/_42ssp</dimen>
+    <dimen name="textsize_medium_huge">@dimen/_50ssp</dimen>
+    <dimen name="textsize_huge">@dimen/_56ssp</dimen>
+
+    <!-- ImageView Sizes -->
+    <dimen name="imageview_standard_width">@dimen/_50sdp</dimen>
+    <dimen name="imageview_standard_height">@dimen/_50sdp</dimen>
+    <dimen name="imageview_small_width">@dimen/_30sdp</dimen>
+    <dimen name="imageview_small_height">@dimen/_30sdp</dimen>
+
+</resources>

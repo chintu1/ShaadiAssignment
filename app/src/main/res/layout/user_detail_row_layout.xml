@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_small"
+    app:cardCornerRadius="@dimen/card_radius_10"
+    app:cardElevation="@dimen/card_elevation_10">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/action_button_linearlayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_small"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/user_detail_textview">
+
+            <TextView
+                android:id="@+id/ignore_action_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="@dimen/padding_small"
+                android:gravity="center"
+                android:text="@string/ignore_action_text"
+                android:textAllCaps="true"
+                android:textColor="@color/black_dim"
+                app:drawableTopCompat="@drawable/ic_close_circular_button_symbol" />
+
+            <TextView
+                android:id="@+id/connect_action_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:drawablePadding="@dimen/padding_small"
+                android:gravity="center"
+                android:text="@string/connect_action_text"
+                android:textAllCaps="true"
+                android:textColor="@color/black_dim"
+                app:drawableTopCompat="@drawable/ic_check_circular_button" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/user_detail_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_standard"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black_dim"
+            android:textSize="@dimen/textsize_standard"
+            app:layout_constraintBottom_toTopOf="@+id/action_button_linearlayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/username_textview" />
+
+        <TextView
+            android:id="@+id/username_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_standard"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/teal_700"
+            android:textSize="@dimen/textsize_xxlarge"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/user_detail_textview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/user_dp_imageview" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_dp_imageview"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_marginTop="@dimen/margin_standard"
+            app:civ_border_color="@color/grey"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/username_textview"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
